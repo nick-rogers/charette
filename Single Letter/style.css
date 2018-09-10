@@ -1,0 +1,872 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+	background-color: white;
+	transition: ease all 1s;
+}
+
+.main {
+	width: 90vw;
+	margin-left: 5vw;
+	height: 5000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow-x: hidden;
+}
+
+.letter {
+	display: inline-block;
+	width: 185px;
+	height: 200px;
+	background-color: none;
+	float: left;
+	margin-left: 60px;
+	margin-bottom: 60px;
+	/*background-image: url(the-k.png);*/
+	background-size: 100% 100%;
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #e8e8e8;
+	border-color: white;
+	box-sizing: border-box;
+	z-index: 10;
+}
+
+
+.tb {
+	transition: ease all 1s;
+	display: block;
+	background-color: black;
+	position: absolute;
+	cursor: pointer;
+}
+
+.tb01 {
+	margin-left: 21px;
+	height: 3px;
+	width: 71px;
+	border-radius: 1px;
+	margin-top: 22.3px;
+}
+
+.tb02 {
+	margin-left: 136px;
+	height: 3px;
+	width: 16px;
+	border-radius: 1px;
+	margin-top: 22.3px;
+}
+
+.tb03 {
+	margin-left: 21px;
+	height: 3px;
+	width: 71px;
+	border-radius: 1px;
+	margin-top: 31px;
+}
+
+.tb04 {
+	margin-left: 136px;
+	height: 3px;
+	width: 16px;
+	border-radius: 1px;
+	margin-top: 31px;
+}
+
+.tb05 {
+	margin-left: 44px;
+	height: 6px;
+	width: 33px;
+	border-radius: 2px;
+	margin-top: 40px;
+}
+
+.tb06 {
+	margin-left: 114px;
+	height: 6px;
+	width: 28px;
+	border-radius: 2px;
+	margin-top: 40px;
+}
+
+.tb07 {
+	margin-left: 44px;
+	height: 6px;
+	width: 33px;
+	border-radius: 2px;
+	margin-top: 52px;
+}
+
+.tb08 {
+	margin-left: 100px;
+	height: 6px;
+	width: 28px;
+	border-radius: 2px;
+	margin-top: 52px;
+}
+
+.tb09 {
+	margin-left: 44px;
+	height: 7px;
+	width: 70px;
+	border-radius: 3px;
+	margin-top: 64px;
+}
+
+.tb10 {
+	margin-left: 44px;
+	height: 8px;
+	width: 57px;
+	border-radius: 3px;
+	margin-top: 77px;
+}
+
+.tb11 {
+	margin-left: 44px;
+	height: 11px;
+	width: 70px;
+	border-radius: 4px;
+	margin-top: 91px;
+}
+
+
+.tb12 {
+	margin-left: 44px;
+	height: 15px;
+	width: 35px;
+	border-radius: 6px;
+	margin-top: 108px;
+}
+
+.tb13 {
+	margin-left: 100px;
+	height: 15px;
+	width: 28px;
+	border-radius: 6px;
+	margin-top: 108px;
+}
+
+.tb14 {
+	margin-left: 44px;
+	height: 17px;
+	width: 35px;
+	border-radius: 8px;
+	margin-top: 129px;
+}
+
+.tb15 {
+	margin-left: 115px;
+	height: 17px;
+	width: 35px;
+	border-radius: 8px;
+	margin-top: 129px;
+}
+
+.tb16 {
+	margin-left: 21px;
+	height: 20px;
+	width: 70px;
+	border-radius: 8px;
+	margin-top: 152px;
+}
+
+.tb17 {
+	margin-left: 122px;
+	height: 20px;
+	width: 44px;
+	border-radius: 8px;
+	margin-top: 152px;
+}
+
+
+/* CSS Interactions are below */
+
+
+.int1:hover {
+	background-color: orange;
+}
+
+.int1 {
+	transition: ease all 0.4s;
+}
+
+/*
+.l02 {
+	transition: ease all 0.4s;
+}
+
+.l02:hover {
+	filter: blur(15px);
+}*/
+
+.l02 {
+	transition: ease all 0.4s;
+}
+
+.l03 {
+	transition: ease all 0.4s;
+}
+
+.l05 {
+	overflow-x: hidden;
+	transition: ease all 0.4s;
+}
+
+
+.int7 {
+	transition: ease all 0.4s;
+}
+
+.int9 {
+	transition: ease all 2s;
+}
+
+.l10 {
+	overflow-x: hidden;
+}
+
+.int10 {
+	transition: ease all 1s;
+}
+
+.int11 {
+z-index: 100;
+}
+
+.int11, .int12 {
+	transition: ease all 2s;
+}
+
+.int13 {
+	transition: ease all 2s;
+}
+
+.l13 {
+	overflow-y: hidden;
+}
+
+
+.int15:hover {
+	filter: drop-shadow(4px 4px 4px black);
+}
+
+
+.int16 {
+	transition: ease all 3s;
+}
+
+.int17 {
+	transition: ease all 0.9s;
+}
+
+
+.l18:active {
+	background-color: black;
+}
+
+.int18:active {
+	background-color: white;
+}
+
+
+.l20 {
+	transition: all ease-in  0.6s;
+	overflow: hidden;
+	border-radius: 0px;
+}
+
+.l20:hover {
+	border-radius: 130px;
+	background-color: lightblue;
+}
+
+
+.int21, .int22 {
+	transition: ease all 0.7s;
+}
+
+.int21:hover {
+	width: 200px;
+}
+
+
+.int22:hover {
+	height: 100px;
+	margin-top: 50px;
+	border-radius: 30px;
+}
+
+
+.int24 {
+	transition: ease all 0.9s;
+}
+
+.min {
+	width: 7px;
+	margin-left: 90px;
+	border-radius: 20px;
+}
+
+
+.int25, .int26 {
+	transition: ease all 0.6s;
+}
+
+.int26 {
+	box-sizing: border-box;
+}
+
+.int27 {
+	transition: ease all 0.7s;
+}
+
+
+.int28 {
+	transition: ease all 0.8s;
+}
+
+
+@keyframes spinIt {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(180deg);
+	}
+}
+
+.int29spin {
+	transition: ease all 2s;
+	animation-name: spinIt;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+
+
+
+@keyframes thickSpin {
+	0% {
+		transform: rotate(0deg);
+		border-radius: 5px;
+	}
+	50% {
+		transform: rotate(180deg);
+		height: 50px;
+		border-radius: 50px;
+	}
+	100% {
+		transform: rotate(360deg);
+		border-radius: 5px;
+	}
+}
+
+.thickSpins {
+	transition: ease all 1s;
+	animation-name: thickSpin;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+
+
+.allSpin {
+	transition: ease all 1s;
+	animation-name: allspinning;
+	animation-duration: 0.7s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+
+@keyframes allspinning {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+
+
+
+.resizeIt {
+	display: none;
+	position: fixed;
+	width: 500px;
+	height: 370px;
+	background-color: white;
+	z-index: 200;
+	margin-left: 33%;
+	margin-top: 10%;
+	box-shadow: 0px 0px 18px #a5a5a5;
+	text-align: center;
+	padding-top: 30px;
+	opacity: 0;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.re {
+
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background-image: url('resize-01.png');
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.l32:active {
+	transition: ease all 1s;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: 10;
+	animation-timing-function: ease;
+}
+
+
+.shift {
+	transition: ease all 1s;
+	animation-name: shifty;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+@keyframes shifty {
+	from {
+		background: linear-gradient(to left, #000000 0%,#ffffff 100%);
+	}
+	to {
+		background: linear-gradient(to right, #000000 0%,#ffffff 100%);
+	}
+}
+
+
+.blacked {
+	background: linear-gradient(to top, #000000 55%,#ffffff 100%);
+}
+
+
+
+.color-pulse {
+	transition: ease all 1s;
+	animation-name: cpulse;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+
+@keyframes cpulse {
+	0% {
+		background-color: black;
+	}
+	25% {
+		background-color: red;
+	}
+	50% {
+		background-color: orange;
+	}
+	75% {
+		background-color: yellow;
+	}
+	100% {
+		background-color: black;
+	}
+}
+
+
+.int38:active {
+	transition: ease all 1s;
+	border-style: solid;
+	border-color: black;
+	border-width: 100px;
+}
+
+
+.l39:active {
+	transition: ease all 0.2s;
+	transform: scale(4,4);
+	background-color: none;
+}
+
+
+.l41 {
+	overflow: hidden;
+}
+
+
+.circ {
+	transition: ease all 1s;
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	background-color: white;
+	z-index: 500;
+	margin-left: 80px;
+	margin-top: 80px;
+	opacity: 0;
+}
+
+
+.c-bigger {
+	transition: ease all 1s;
+	position: absolute;
+	display: block;
+	width: 210px;
+	height: 210px;
+	border-radius: 105px;
+	background-color: white;
+	z-index: 500;
+	margin-left: -13px;
+	margin-top: -8px;
+	opacity: 1;
+}
+
+
+.circ2 {
+	transition: ease all 1.5s;
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: none;
+	border-color: white;
+	border-width: 5px;
+	z-index: 500;
+	margin-left: 75px;
+	margin-top: 75px;
+	opacity: 0.7;
+}
+
+
+.c-bigger2 {
+	transition: ease all 1.5s;
+	position: absolute;
+	display: block;
+	width: 210px;
+	height: 210px;
+	border-radius: 200px;
+	background-color: none;
+	border-style: solid;
+	border-color: white;
+	border-width: 20px;
+	z-index: 500;
+	margin-left: -25px;
+	margin-top: -15px;
+	opacity: 1;
+}
+
+
+.l43:active {
+	transition: ease all 1s;
+	margin-top: 100px;
+	background-color: black;
+}
+
+
+
+.int44 {
+	transition: ease all 1s;
+	border-style: dotted;
+	border-width: 0px;
+}
+
+
+.dotted {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: black;
+}
+
+
+.ridgy {
+	border-radius: 100px;
+	border-style: ridge;
+}
+
+.int45 {
+	transition: ease all 0.6s;
+}
+
+
+
+.bigbig {
+	transform: scale(3,3);
+}
+
+
+.int47 {
+	transition: ease all 0.8s;
+	cursor: not-allowed;
+}
+
+
+.l48 {
+	transition: ease all 1s;
+}
+
+
+.l48:hover {
+	transform: skew(15deg, 15deg);
+}
+
+
+.l49 {
+	background-color: none;
+	transition: ease all 1s;
+}
+
+
+.int50 {
+	transition: ease all 1s;
+}
+
+.int51 {
+	border-style: solid;
+	border-width: 0px;
+	transition: ease all 0.6s;
+	box-sizing: border-box;
+}
+
+.white {
+	background-color: white;
+}
+
+
+
+
+.int54 {
+	border-width: 0px;
+	border-style: solid;
+	border-color: grey;
+	transition: ease all 0.6s;
+}
+
+
+
+.int54:hover {
+	border-width: 5px;
+	border-style: groove;
+}
+
+
+.int56 {
+	transition: ease all 1s;
+}
+
+
+.thicc {
+	width: 100px;
+	height: 3px;
+	margin-left: 20px;
+}
+
+
+
+.spindly {
+	height: 2px;
+}
+
+
+.int59 {
+	transition: 1.5s;
+}
+
+
+.int60 {
+	transition: 5s;
+}
+
+
+
+.moveFar {
+	margin-left: 10000;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+
+
+.l62 {
+	transition: ease all 1s;
+	overflow: hidden;
+}
+
+.l62:active {
+	background-color: red;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+
+.dim {
+	opacity: 0.3;
+}
+
+
+.warpp {
+	transform: skew(30deg, 15deg);
+}
+
+
+
+.wiide {
+	width: 200px;
+}
+
+
+
+.shad {
+	box-shadow: 0px 0px 3px black;
+	background-color: white;
+}
+
+
+.shad2 {
+	box-shadow: 0px 0px 3px black;
+	background-color: white;
+	transform: scale(2);
+}
+
+
+
+@keyframes colors {
+	0% {
+		background-color: black;
+	}
+	25% {
+		background-color: blue;
+	}
+	50% {
+		background-color: yellow;
+	}
+	75% {
+		background-color: green;
+	}
+	100% {
+		background-color: black;
+	}
+}
+
+
+.l69 {
+	transition: ease all 1s;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+
+
+
+.l70 {
+	transition: ease all 1s;
+}
+.l70:hover {
+	transform: skewX(180deg);
+}
+
+.l71:hover {
+	border-style: solid;
+	border-width: 60px;
+	border-color: black;
+	box-sizing: border-box;
+}
+
+
+
+.int73 {
+	transition: ease all 4s;
+}
+
+
+.int74 {
+	transition: ease all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DO ONE WHERE THE WEIGHTS SHIFT FROM BOTTOM TO TOP*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
